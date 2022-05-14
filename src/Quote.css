@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;800&display=swap');
+
+
+.quote{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    color: #cee2e9;
+    font-size: 16px;
+}
