@@ -3,7 +3,6 @@ import QuoteHead from './QuoteHead'
 import Quote from './Quote'
 import axios from 'axios';
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
 const [advice, setAdvice] = useState('');
