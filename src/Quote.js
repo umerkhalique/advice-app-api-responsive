@@ -9,8 +9,10 @@ export default function Quote(props) {
     </h1>
     <div className="hrdiv">
         <hr></hr>
+        <div></div>
         <div className="hrdivv"></div>
         <div className="hrdivv"></div>
+        <div></div>
         <hr></hr>
     </div>
     </div>

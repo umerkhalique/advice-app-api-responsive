@@ -5,12 +5,12 @@
 }
 .App{
     background-color: #202632;
-    width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .card-main{
     width: 350px;
@@ -18,4 +18,20 @@
     border-radius: 10px;
     background-color: #313a49;
     padding: 25px;
+}
+.btn{
+    all: unset;
+    width: 50px;
+    height: 50px;
+    background-color: #53ffab;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-div{
+    margin-top: -25px;
+}
+.dicee{
+    font-size: 23px;
 }

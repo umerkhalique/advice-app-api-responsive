@@ -3,6 +3,7 @@ import QuoteHead from './QuoteHead'
 import Quote from './Quote'
 import axios from 'axios';
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
 const [advice, setAdvice] = useState('');
@@ -23,8 +24,8 @@ const [id, setId] = useState('');
         <QuoteHead head={id}/>
         <Quote quote={advice}/>
       </div>
-      <div>
-        <button className="btn" onClick={getAdvice}>click me</button>
+      <div className="btn-div">
+        <button className="btn" onClick={getAdvice}><i class="fa-solid fa-dice-five dicee"></i></button>
       </div>
     </div>
   );
