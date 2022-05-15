@@ -18,6 +18,7 @@
     border-radius: 10px;
     background-color: #313a49;
     padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .btn{
     all: unset;
@@ -28,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .btn-div{
     margin-top: -25px;
