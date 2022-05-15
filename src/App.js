@@ -2,12 +2,15 @@ import './App.css';
 import QuoteHead from './QuoteHead'
 import Quote from './Quote'
 import axios from 'axios';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function App() {
 const [advice, setAdvice] = useState('');
 const [id, setId] = useState('');
 
+useEffect(() => {
+  getAdvice();
+})
   function getAdvice(){
     axios.get('https://api.adviceslip.com/advice').then((response) =>{
     setAdvice(response.data.slip.advice);
