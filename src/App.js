@@ -24,7 +24,7 @@ const [id, setId] = useState('');
         <Quote quote={advice}/>
       </div>
       <div>
-        <button onClick={getAdvice}>click me</button>
+        <button className="btn" onClick={getAdvice}>click me</button>
       </div>
     </div>
   );

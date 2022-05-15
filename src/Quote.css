@@ -6,4 +6,24 @@
     font-weight: 800;
     color: #cee2e9;
     font-size: 20px;
+    text-align: center;
+}
+.hrdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    height: 30px;
+}
+hr{
+    width: 130px;
+    border: 0.5px solid #4f5e75;
+    background-color: #4f5e75;
+    height: 0.5px;
+}
+.hrdivv{
+    background-color: #cee3e8;
+    width: 7px;
+    height: 17px;
+    border-radius: 5px;
 }
