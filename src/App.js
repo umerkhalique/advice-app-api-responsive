@@ -10,7 +10,7 @@ const [id, setId] = useState('');
 
 useEffect(() => {
   getAdvice();
-})
+}, [])
   function getAdvice(){
     axios.get('https://api.adviceslip.com/advice').then((response) =>{
     setAdvice(response.data.slip.advice);
